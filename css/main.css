@@ -1,0 +1,105 @@
+
+
+
+  
+  /* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    width: 740px;
+    height: 380px;
+    background: rgba(245, 245, 245, 0.8);
+    box-shadow: 0px 12px 30px 12px rgba(205, 205, 205, 0.4);
+    border-radius: 32px;
+    color: rgb(37, 37, 37);
+}
+.video-player{
+    min-width: 100%;
+    min-height: 550px;
+}
+
+.hr-div {
+    left: 10%;
+    position: absolute;
+    margin-bottom: 14px!important;
+    width: 80%;
+    height: 6px;
+    background-color: #aaa;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.video-grad{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 550px;
+    background:rgb(37, 37, 37, 0.5)
+    /*background: linear-gradient(180deg, rgba(218, 218, 218, 0.7) 22.92%, rgba(255, 255, 255, 0) 80%);*/
+}
+
+.video-container{
+    width: 100%; 
+    max-height: 550px; 
+    overflow: hidden;
+}
+.calc-item{
+    min-width:380px; 
+    max-width:500px; 
+    margin-left:15px; 
+    margin-right:15px; 
+    margin-bottom: 16px;
+}
+.oder-btn{  
+    padding-left: 48px;  
+    padding-right: 48px; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #9B51E0;
+    border: none;
+    border-radius: 48px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* or 89% */
+    
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    
+    color: #F2F2F2;
+}
+
+.youtube-btn{
+    padding-left: 24px;  
+    padding-right: 24px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 48px;
+    border: 4px solid #9B51E0;
+    background-color: white;
+}
+.youtube-btn span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #9B51E0;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3D3D3D;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 580;
+    color: #3D3D3D;
+}
