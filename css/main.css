@@ -5,15 +5,60 @@
   /* Add some content at the bottom of the video/page */
 .content {
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 7%;
-    width: 740px;
+    width: 700px;
     height: 380px;
-    background: rgba(245, 245, 245, 0.8);
-    box-shadow: 0px 12px 30px 12px rgba(205, 205, 205, 0.4);
+    background: rgba(250, 250, 250, 0.8);
+    box-shadow: 0px 12px 30px 12px rgba(205, 205, 205, 0.8);
     border-radius: 32px;
     color: rgb(37, 37, 37);
 }
+
+@media screen and (min-width: 1800px) {
+    .content {
+        left: 20%;
+        top: 8%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .desktop-main {
+        display: none;
+    }
+    .price-block{
+        padding: 12px !important;
+    }
+    .calc-item {
+        min-width: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .demo {
+        margin-left: 0px !important;
+    }
+    .custom-order-1{
+        order:1 !important;
+    }
+    .custom-order-2{
+        order:2 !important;
+    }
+    .preim {
+        visibility: hidden;
+    }
+    ..youtube-btn{
+        padding-left: 12px !important;  
+        padding-right: 12px !important; 
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+    }
+}
+@media screen and (min-width: 501px) {
+    .mobile-main {
+        display: none;
+    }
+}
+
 .video-player{
     min-width: 100%;
     min-height: 550px;
@@ -34,7 +79,7 @@
     top:0;
     width: 100%;
     height: 550px;
-    background:rgb(37, 37, 37, 0.5)
+    background:rgb(37, 37, 37, 0.4)
     /*background: linear-gradient(180deg, rgba(218, 218, 218, 0.7) 22.92%, rgba(255, 255, 255, 0) 80%);*/
 }
 
@@ -43,6 +88,15 @@
     max-height: 550px; 
     overflow: hidden;
 }
+.mobile-main {
+    max-height: 1400px;
+}
+
+.video-player.mobile{
+    width: 100%;
+    min-height: 0px;
+}
+
 .calc-item{
     min-width:380px; 
     max-width:500px; 
@@ -73,6 +127,10 @@
     color: #F2F2F2;
 }
 
+.oder-btn:hover {
+    background-color: #6A1B9A;
+}
+
 .youtube-btn{
     padding-left: 24px;  
     padding-right: 24px; 
@@ -82,11 +140,37 @@
     border: 4px solid #9B51E0;
     background-color: white;
 }
+
+.youtube-btn:hover{
+    background-color: #dfc5f6;
+}
+
+.demo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* or 89% */
+    
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    margin-left:20px;
+}
+
 .youtube-btn span{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     color: #9B51E0;
+}
+
+.price-block{
+    padding: 36px; 
+    background-color: white; 
+    border-radius: 24px; 
+    padding-bottom: 12px;
 }
 
 p {
@@ -97,9 +181,14 @@ p {
     color: #3D3D3D;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 580;
     color: #3D3D3D;
+}
+
+.subname {
+    font-weight: 900;
+    font-style: bold;
 }
